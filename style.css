@@ -1,0 +1,139 @@
+* { box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {background-color: rgb(232, 232, 232);
+    color: #3f3f3f;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#main-logo {
+    width: 150px;
+    padding: 10px;
+}
+
+.nav-bar{
+    background-color: #005385;
+    text-align: center;
+}
+
+/*NAV BAR SECTION*/
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.nav-bar ul{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+.nav-bar a:hover{
+    background-color: rg;
+}
+
+.nav-bar a:hover{
+    background-color: rgba(232, 232, 232 30);
+    font-weight: bolder;
+}
+
+
+.full-image {
+    width: 100%;
+    /*visibility: hidden;*/
+}
+
+.white-section {
+    background-color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 10%;
+    padding-bottom: 10px;
+    padding-left: 10%;
+}
+
+.section-header {
+    color: #005385;
+}
+
+.contect-section {
+    margin: 1em;
+}
+
+.course-item {
+    border: 1px solid #005385;
+    width: 300px;
+    padding: 10;
+    margin: 10px;
+}
+
+.course-item-image {
+    width: 270px;
+}
+
+.course-item-header {
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.course-item-contect {
+    padding: 10px;
+    display: flex;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-footer {
+    /*background-image: url(../images/logowhite.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    background-color: #005385;
+    padding: 4px 30px;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 2;
+    text-align: end;
+}
+
+.footer-text {
+    color: white;
+    font-weight: normal;
+}
+
+.footer-nav li {
+    padding: 0;
+}
+
+.footer-nav img {
+    width: 30px;
+   
+}
+
+.main-con {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+
